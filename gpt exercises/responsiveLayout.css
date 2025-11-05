@@ -1,0 +1,18 @@
+@media (max-width:760px) {
+    body {
+        flex: content;
+        align-items: flex-start;
+    }
+} 
+
+.nav {
+    background-color: rgb(234, 245, 193);
+    border-radius: 10px;
+    margin: 10 10 10 10;
+}
+
+.mainContent {
+    background-color: #549066;
+    color: black;
+    border-radius: 10px;
+}

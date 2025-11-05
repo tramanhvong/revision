@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width:device-width, initial-scale=1.0">
+        <title>Responsive Layout</title>
+        <!--<link rel="stylesheet" href="responsiveLayout.css">-->
+        <style>
+            @media (max-width:760px) {
+                main {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            } 
+
+            .nav {
+                display: box;
+                background-color: rgb(234, 245, 193);
+                border-radius: 10px;
+                margin: 10 10 10 10;
+            }
+
+            .mainContent {
+                background-color: #549066;
+                color: black;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <div class="nav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <section class="mainContent">Main Content</section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Responsive Layout</p>
+        </footer>
+    </body>
+
+</html>
