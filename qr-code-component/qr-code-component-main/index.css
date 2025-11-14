@@ -61,8 +61,8 @@ body {
 
 .qr-code {
     display: auto;
-    width: 90%;
-    height: 90%; 
+    aspect-ratio: 1/1;
+    width: 90%; 
     margin-top: 20px;
 }
 
