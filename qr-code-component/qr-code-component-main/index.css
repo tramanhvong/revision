@@ -35,6 +35,10 @@ body {
     height: fit-content;
 }
 
+.qr-box:focus {
+    background-color: yellow;
+}
+
 .bold-header {
     font-weight: 700;
     color: black;
@@ -45,7 +49,7 @@ body {
 
 .text {
     font-weight: 400;
-    color: hsl(216, 15%, 48%);
+    color: hsl(216, 73%, 35%);
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
