@@ -52,7 +52,8 @@ body {
     font-weight: 400;
     color: hsl(216, 73%, 35%);
     text-align: center;
-
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .qr-code {
@@ -60,8 +61,6 @@ body {
     width: 80%; 
     border-radius: 20px;
     margin-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 @media (max-width:375px) {
