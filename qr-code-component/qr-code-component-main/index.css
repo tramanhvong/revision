@@ -56,13 +56,13 @@ body {
 }
 
 .qr-code-div {
+    display: flex;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
 
 .qr-code {
-    display: auto;
     aspect-ratio: 1/1;
     width: 90%; 
     margin-top: 20px;
