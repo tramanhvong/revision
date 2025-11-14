@@ -58,15 +58,15 @@ body {
 
 .qr-code-div {
     border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 .qr-code {
     display: auto;
     width: 90%;
     height: 90%; 
-    margin-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;    
 }
 
 @media (max-width:375px) {
