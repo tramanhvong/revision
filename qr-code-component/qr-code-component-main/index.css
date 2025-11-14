@@ -35,7 +35,7 @@ body {
     height: fit-content;
 }
 
-.qr-box:focus {
+.qr-box:hover {
     background-color: yellow;
 }
 
@@ -64,7 +64,7 @@ body {
     display: auto;
     width: 90%;
     height: 90%; 
-    padding-top: 20px;
+    margin-top: 20px;
     padding-left: 5%;
     padding-right: 5%;    
 }
