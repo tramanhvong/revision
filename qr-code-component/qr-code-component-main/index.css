@@ -33,7 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     height: fit-content;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 5px black;
 }
 
 .qr-box:hover {
