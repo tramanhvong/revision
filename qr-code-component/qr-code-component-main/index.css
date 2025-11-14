@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     height: fit-content;
+    box-shadow: 2px 2px 5px grey;
 }
 
 .qr-box:hover {
@@ -53,20 +54,18 @@ body {
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 20px;
 }
 
 .qr-code-div {
     border-radius: 10px;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%; 
 }
 
 .qr-code {
     display: auto;
     width: 90%;
     height: 90%; 
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 @media (max-width:375px) {
